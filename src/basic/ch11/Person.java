@@ -70,15 +70,15 @@ public class Person {
 		 return this.name;
 	 }
 	 
-	 public int age() {
+	 public int getAge() {
 		 return this.age;
 	 }
 	
-	 public String phone() {
+	 public String getPhone() {
 		 return this.phone;
 	 }
 	 
-	 public String gender() {
+	 public String getGender() {
 		 return this.gender;
 	 }
 	 
