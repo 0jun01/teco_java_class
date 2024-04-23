@@ -4,7 +4,8 @@ package basic.ch12;
 public class NumberPrinter {
 	
 	private int id; // 멤버 변수
-	// waitNumber 먼저 올라감 
+	// static 변수는 Method Area 영역에 올라간다 waitNumber 먼저 올라감
+	// 즉 static waitNumber 변수는 NumberPrinter 인스턴스화 되기전에 사용 가능 하다.
 	public static int waitNumber;   // static 변수 --> method Area
 	
 	// static은 서로 다른 기기를 공유 

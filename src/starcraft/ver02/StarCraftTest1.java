@@ -1,4 +1,4 @@
-package starcraft.ver01;
+package starcraft.ver02;
 
 public class StarCraftTest1 {
 
@@ -17,7 +17,7 @@ public class StarCraftTest1 {
 		Zergling zergling2 = new Zergling("히드라");
 
 		for (int i = 0; i < 15; i++) {
-			zealot1.attackMarine(marine2);
+			zealot1.attack(marine2);
 		}
 		marine2.showInfo();
 	}

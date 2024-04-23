@@ -70,12 +70,12 @@ public class LottoGame {
 
 		}
 
-		System.out.print("첫 번째 : " + gameNumber1 + "\t");
-		System.out.print("두 번째 : " + gameNumber2 + "\t");
-		System.out.print("세 번째 : " + gameNumber3 + "\t");
-		System.out.print("네 번째 : " + gameNumber4 + "\t");
-		System.out.print("다섯 번째 : " + gameNumber5 + "\t");
-		System.out.print("여섯 번째 : " + gameNumber6 + "\t");
+		System.out.print(gameNumber1 + "\t");
+		System.out.print(gameNumber2 + "\t");
+		System.out.print(gameNumber3 + "\t");
+		System.out.print(gameNumber4 + "\t");
+		System.out.print(gameNumber5 + "\t");
+		System.out.print(gameNumber6 + "\t");
 
 	} // end of main
 

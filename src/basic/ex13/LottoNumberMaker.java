@@ -31,6 +31,23 @@ public class LottoNumberMaker {
 		return resultNumber;
 	} 
 	
+	// 인스턴스에 속하지 않는 함수 만들기
+	public static int[] makeNumbers() {
+		int[] numbers = new int[6];
+		Random random = new Random();
+		
+		for(int i = 0 ; i < 6; i++) {
+			int num = random.nextInt(45) + 1;
+			
+			
+			//[0] 3.
+			//[1] 3.
+			numbers[i] = num;
+		}
+		return numbers;
+	}
+	
+	
 	public static int makeNumber2() {
 		Random random = new Random();
 		int resultNumber = random.nextInt(45);
