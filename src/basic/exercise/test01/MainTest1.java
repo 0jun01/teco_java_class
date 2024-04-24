@@ -10,6 +10,7 @@ public class MainTest1 {
 		C c = new C();
 		D d = new D();
 		
+		
 		// 메서드 의존 주입
 		a.setB(b);
 		b.setC(c);
