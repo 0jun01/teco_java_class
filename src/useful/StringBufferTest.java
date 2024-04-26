@@ -14,7 +14,7 @@ public class StringBufferTest {
 		System.err.println(System.identityHashCode(bufferStr)); // 원시 주소 값
 		
 		bufferStr.append(str2);
-		
+		bufferStr.append(str1);
 		System.out.println(bufferStr);
 		// 2.
 		System.out.println(System.identityHashCode(bufferStr));
