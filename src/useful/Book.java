@@ -29,9 +29,9 @@ public class Book {
 		Book book = new Book("데미안", "헤르만 허세");
 		System.out.println(book);
 		System.out.println("------------------");
-		
+
 		String str1 = new String("안녕");
 		System.out.println(str1);
-	
+
 	}
 }
