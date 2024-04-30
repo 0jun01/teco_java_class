@@ -14,8 +14,8 @@ public class ArrayExcepitionHanding {
 				System.out.println(arr[i]);
 			}
 		} catch (ArrayIndexOutOfBoundsException e) {
-			System.out.println("배열의 크기를 인덱스가 벗어 났습니다.");
-			System.out.println(e.getMessage());
+			// System.out.println("배열의 크기를 인덱스가 벗어 났습니다.");
+			// System.out.println(e.getMessage());
 		}
 
 		System.out.println("비정상 종료 되지 않았어요!");

@@ -1,13 +1,12 @@
 package useful.ch03;
 
-
 public class ThrowsHandling {
 
 	// 메인 쓰레드
 	public static void main(String[] args) {
 
 		Calc calc = new Calc();
-		
+
 		try {
 			// 던져서 강제성이 발생이 되고
 			// 사용하는 사람이 직접 예외 처리 핸들링을 할 수 있다.
@@ -19,7 +18,7 @@ public class ThrowsHandling {
 		} catch (Exception e) {
 			System.out.println(e.getMessage());
 		}
-		
+
 		Exception exception;
 	} // end of main
 
@@ -27,7 +26,7 @@ public class ThrowsHandling {
 
 class Calc {
 
-	public int dividie(int n1, int n2) throws Exception{
+	public int dividie(int n1, int n2) throws Exception {
 		// 사용자가 0을 입력하면 예외가 발생 될 수 있는 코드 영역이다.
 		// 해결 방법
 		// 1. 해당 메서드에서 직접 예외 처리를 구현 한다.
