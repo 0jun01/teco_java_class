@@ -6,11 +6,10 @@ public class NickNameTest {
 
 		NickName nickName = new NickName();
 		String inputNick = null;
-		inputNick = "아닌데응";
+		inputNick = "가나다라";
 
 		nickName.setNick(inputNick);
 
-		
 	}
 
 }
