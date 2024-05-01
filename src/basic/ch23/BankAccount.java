@@ -34,10 +34,10 @@ public class BankAccount {
 	public int withdraw(int money) {
 		// 싱크로나이지드 메서드
 		// 현재 잔액 ... 10만원
+		int currentMoney = getMoney();
 
 		synchronized (this) {
 
-			int currentMoney = getMoney();
 			// ...출금 0.5초 정도 시간이 걸림
 			try {
 				Thread.sleep(500);
