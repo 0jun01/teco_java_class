@@ -8,7 +8,7 @@ public class Operation3 {
 
 	public static void main(String[] args) {
 
-		int value1 = 1;
+		int value1 = 1; 
 		//value1++; 앞에 쓰든 뒤에쓰든 코딩 스타일
 		++value1;
 		
