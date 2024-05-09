@@ -2,6 +2,7 @@ package basic.ex13;
 
 import java.awt.image.BufferedImage;
 
+import javax.imageio.ImageIO;
 import javax.swing.JFrame;
 
 public class Array extends JFrame {
@@ -13,6 +14,7 @@ public class Array extends JFrame {
 	int y;
 
 	public Array() {
+		
 		Map = new int[600][1000];
 
 		for (int i = 0; i < 600; i++) {
